@@ -29,7 +29,7 @@ R = Gscorer.score_chr(chrs=[2, 12])
 top_ten = Gscorer.get_topscores(N=10)
 print("top_ten: ", top_ten) #todo: None for now..
 
-#no luck with Manhattan Plot yet..
+#Manhattan plot now working:
 Gscorer.plot_Manhattan(R[0],
 labelList=['WDR12'])
 
